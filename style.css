@@ -1,0 +1,160 @@
+* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.header {
+    background-color: white;
+}
+
+.header .h-top img {
+    width: 20vw;
+    height: 20vw;
+    margin: -5vh;
+}
+
+.h-top {
+    display: flex;
+    justify-content: center;
+}
+
+.h-bottom {
+    display: flex;
+    flex-direction: row;
+    background-color: orangered;
+}
+
+.navbar-menu {
+    width: 25vw;
+    padding-block: 2vh;
+    text-align: center;
+}
+
+.navbar-menu:hover {
+    background-color: black;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.c-top {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.c-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3vw;
+    background-image: url("img/bg.png");
+    background-size: contain;
+    margin-bottom: 10vh;
+}
+
+content {
+    padding: 5vw;
+}
+
+.cb-box {
+    text-align: center;
+}
+
+.cbb-img1 {
+    width: 15vw;
+    height: 15vw;
+    background-image: url("img/menu1.jfif");
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.cbb-img1:hover {
+    background-image: url("img/menu2.jfif");
+    background-size: cover;
+}
+
+.cbb-img2 {
+    width: 15vw;
+    height: 15vw;
+    background-image: url("img/menu2.jfif");
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.cbb-img2:hover {
+    background-image: url("img/menu3.jfif");
+    background-size: cover;
+}
+
+.cbb-img3 {
+    width: 15vw;
+    height: 15vw;
+    background-image: url("img/menu3.jfif");
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.cbb-img3:hover {
+    background-image: url("img/menu4.jfif");
+    background-size: cover;
+}
+
+.cbb-img4 {
+    width: 15vw;
+    height: 15vw;
+    background-image: url("img/menu4.jfif");
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.cbb-img4:hover {
+    background-image: url("img/menu1.jfif");
+    background-size: cover;
+}
+
+p {
+    background-color: white;
+    border-radius: 50px;
+    padding-block: 1vh;
+}
+
+.footer {
+    background-color: orangered;
+    text-align: center;
+    padding-block: 3vh;
+    color: white;
+}
+
+.content-register {
+    padding: 5vw;
+}
+
+.cr-top {
+    text-align: center;
+}
+
+.cr-bottom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-inline: 30vw;
+}
+
+input {
+    text-align: center;
+}
+
+textarea {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.rb {
+    text-align: center;
+}
